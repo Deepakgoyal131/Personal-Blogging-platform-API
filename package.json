@@ -1,0 +1,19 @@
+{
+  "name": "personal-blogging-platform-api",
+  "version": "1.0.0",
+  "description": "This is the simple and first step to backend project. This is a RESTful API that would power a personal blog.",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Deepak Goyal",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "express-validator": "^7.2.0",
+    "mongoose": "^8.9.2",
+    "nodemon": "^3.1.9"
+  }
+}
